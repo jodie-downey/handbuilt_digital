@@ -292,6 +292,7 @@ export default function App() {
               data-netlify-honeypot="bot-field"
               action="/thanks"
               className="grid gap-5"
+               encType="application/x-www-form-urlencoded"
             >
               {/* Netlify form-name */}
               <input type="hidden" name="form-name" value="intake" />
@@ -352,7 +353,7 @@ export default function App() {
                 </div>
                 <button
                   type="submit"
-                  className="rounded-xl bg-zinc-900 px-5 py-3 text-sm font-semibold text-white hover:opacity-90"
+                  className="rounded-xl bg-zinc-900 px-5 py-3 text-sm font-semibold text-zinc-100 hover:opacity-90"
                 >
                   Submit intake
                 </button>
@@ -387,7 +388,7 @@ export default function App() {
         </h2>
 
         <p className="mt-4 text-zinc-700">
-          Hi! Im Jodie. A hands on entrepreneur of over nine years in the automotive industry. Marketing for 
+          Hi! Im Jodie. A hands on entrepreneur of over nine years in the automotive industry based in Kentucky. Marketing for 
           our company has evolved over the years from word of mouth, to social media 
           and with the expansion of our business the need for a website became aparent. 
           I tried multiple plug and play building sites and even hired an agency that produced what

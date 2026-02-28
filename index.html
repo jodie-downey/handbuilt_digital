@@ -31,8 +31,24 @@
   <body>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
-     <form name="intake" method="POST" data-netlify="true">
-      <input type="hidden" name="form-name" value="intake" />
+    <form
+      name="intake"
+      data-netlify="true"
+      data-netlify-honeypot="bot-field"
+      hidden
+    >
+      <input type="text" name="fullName" />
+      <input type="text" name="businessName" />
+      <input type="text" name="industry" />
+      <input type="text" name="serviceArea" />
+      <input type="email" name="email" />
+      <input type="tel" name="phone" />
+      <select name="package"></select>
+      <select name="timeline"></select>
+      <textarea name="services"></textarea>
+      <textarea name="differentiator"></textarea>
+      <textarea name="notes"></textarea>
       <input name="bot-field" />
+    </form>
   </body>
 </html>
