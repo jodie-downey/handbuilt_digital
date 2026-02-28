@@ -353,7 +353,7 @@ export default function App() {
                 </div>
                 <button
                   type="submit"
-                  className="rounded-xl bg-zinc-900 px-5 py-3 text-sm font-semibold text-zinc-100 hover:opacity-90"
+                  className="rounded-xl bg-zinc-900 px-5 py-3 text-sm font-semibold text-zinc-900 cursor-pointer"
                 >
                   Submit intake
                 </button>
