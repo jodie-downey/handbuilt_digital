@@ -1,1 +1,26 @@
 @import "tailwindcss";
+
+@theme {
+  --color-brand-purple: #5b35b0;
+  --color-brand-purple-dark: #3b1f7a;
+  --color-brand-accent: #c084fc;
+  --color-brand-bg: #f7f5fb;
+  --color-brand-text: #1a1025;
+
+  --font-heading: "Lora", serif;
+  --font-body: "Source Sans 3", sans-serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-brand-bg);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
