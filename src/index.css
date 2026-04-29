@@ -7,6 +7,17 @@
   --color-brand-bg: #f7f5fb;
   --color-brand-text: #1a1025;
 
+  /* Operator's Edge palette */
+  --color-oe-charcoal: #1a1a1a;
+  --color-oe-charcoal-soft: #2a2a2a;
+  --color-oe-purple: #2e1a5c;
+  --color-oe-purple-mid: #3d2470;
+  --color-oe-lavender: #7b5ea7;
+  --color-oe-gold: #c9a84c;
+  --color-oe-gold-light: #f0e6c8;
+  --color-oe-cream: #fff8ee;
+  --color-oe-text: #1c1c2e;
+
   --font-heading: "Lora", serif;
   --font-body: "Source Sans 3", sans-serif;
 }
@@ -14,6 +25,10 @@
 body {
   font-family: var(--font-body);
   background-color: var(--color-brand-bg);
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h1,

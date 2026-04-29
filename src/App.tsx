@@ -8,6 +8,7 @@ import Maintenance from "./components/sections/Maintenance";
 import Process from "./components/sections/Process";
 import Contact from "./components/sections/Contact";
 import About from "./components/sections/About";
+import OEPlug from "./components/sections/OEPlug";
 import Footer from "./components/sections/Footer";
 
 export default function App() {
@@ -54,6 +55,7 @@ export default function App() {
       <Process content={process} />
       <Contact content={contact} />
       <About content={about} />
+      <OEPlug />
       <Footer content={footer} />
     </div>
   );
