@@ -41,7 +41,6 @@ export default function OEProductSuite() {
               >
                 Download Free
               </a>
-              <span className="text-xs text-white/40">No email required on this platform</span>
             </div>
           </div>
         </div>
