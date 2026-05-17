@@ -1,3 +1,5 @@
+import { trackLead } from "../../lib/tracking";
+
 export default function OEHero() {
   return (
     <section className="relative bg-oe-charcoal flex flex-col min-h-screen">
@@ -31,6 +33,7 @@ export default function OEHero() {
           <div className="mt-8 flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="http://eepurl.com/KAnk-qfZhX"
+              onClick={trackLead}
               className="inline-flex items-center justify-center rounded-xl bg-oe-gold text-oe-charcoal font-semibold px-6 py-3.5 text-sm hover:bg-[#b8973d] transition-colors"
             >
               Get the Free Quick Start

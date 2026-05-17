@@ -1,3 +1,5 @@
+import { trackLead } from "../../lib/tracking";
+
 export default function OEFinalCTA() {
   return (
     <section className="relative bg-oe-charcoal py-20 px-6">
@@ -20,6 +22,7 @@ export default function OEFinalCTA() {
           <div className="flex flex-col items-center gap-1.5">
             <a
               href="http://eepurl.com/KAnk-qfZhX"
+              onClick={trackLead}
               className="inline-flex items-center justify-center rounded-xl border border-oe-gold/60 text-oe-gold font-semibold px-7 py-3.5 text-sm hover:bg-oe-gold/10 transition-colors min-w-[200px]"
             >
               Start Free

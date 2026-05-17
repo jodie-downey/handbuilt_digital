@@ -1,3 +1,4 @@
+import { trackLead } from "../../lib/tracking";
 import { type SiteContent } from "../../data/content";
 import SectionWrapper from "../ui/SectionWrapper";
 
@@ -28,6 +29,7 @@ export default function Contact({ content }: Props) {
           action="/thanks"
           className="grid gap-5"
           encType="application/x-www-form-urlencoded"
+          onSubmit={trackLead}
         >
           <input type="hidden" name="form-name" value="intake" />
 

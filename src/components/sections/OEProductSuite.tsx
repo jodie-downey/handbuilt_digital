@@ -1,3 +1,4 @@
+import { trackLead } from "../../lib/tracking";
 import { quickStart, oeProducts } from "../../data/oeProducts";
 import OEProductCard from "../ui/OEProductCard";
 
@@ -37,6 +38,7 @@ export default function OEProductSuite() {
             <div className="mt-6 flex flex-col sm:flex-row items-start sm:items-center gap-3">
               <a
                 href={quickStart.storeUrl}
+                onClick={trackLead}
                 className="inline-flex items-center justify-center rounded-xl bg-oe-gold text-oe-charcoal font-semibold px-6 py-3 text-sm hover:bg-[#b8973d] transition-colors"
               >
                 Download Free

@@ -1,3 +1,4 @@
+import { trackPurchaseClick } from "../../lib/tracking";
 import type { OEProduct } from "../../data/oeProducts";
 
 type Props = OEProduct;
@@ -39,6 +40,7 @@ export default function OEProductCard({
 
         <a
           href={storeUrl}
+          onClick={() => trackPurchaseClick(title)}
           className="mt-6 block text-center rounded-xl bg-oe-gold text-oe-charcoal font-semibold py-3 px-4 text-sm hover:bg-[#b8973d] transition-colors"
         >
           Get Instant Playbook Access
